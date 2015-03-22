@@ -1,0 +1,59 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+ .col {
+	background-color: rgba(0, 255, 0, 0.2);
+ }
+ 
+ 
+@media (min-width: 1150px) {
+	.mw {
+		max-width: none !important; 
+	}	
+	.col:nth-of-type(1){
+		width:1200px !important; 
+		background-color: rgba(0, 255,255, 0.2);
+	} 
+	#cnt #center_col {
+		width:1200px !important; 
+		margin-left:20px !important; 
+	}	
+	#rhs {
+		background:blue;
+		/*width:900px;*/
+		/*height:130px;*/
+		overflow:hidden;
+	}
+	#rhs ol li{
+		float:left;
+	}
+	li.g {
+		display:inline-block;	/*	*/
+		float:left;
+		background-color: rgba(255, 0, 0, 0.2);
+	}
+	#imagebox_bigimages {
+		float:left;
+		clear:both;
+		width:100%;
+		background:green !important;
+	}
+	#brs {
+		background:purple;
+		margin-bottom:0 !important;
+	}
+	.brs_col ._e4b {
+		display:inline-block;
+		padding:0 10px;	
+	}
+	#cnt #foot {
+		width:100%;
+	}
+}
+
+ @media (min-width: 1700px) {
+	/* 544 */
+	#cnt #center_col {
+		width:1700px !important; 
+	}
+ }
